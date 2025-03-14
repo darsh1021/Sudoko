@@ -1,0 +1,70 @@
+/* Filename - App.css*/
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+h3{
+  color: white;
+}
+
+.cellInput{
+  width :50px;
+  height:50px;
+  font-size:20px;
+  text-align:center;
+  padding:0px;
+  border:1px solid black;
+
+}
+
+table{
+  border-collapse: collapse;
+  border: 3px solid bisque;
+  background-color: bisque;
+}
+
+td{
+  padding : 0;
+}
+
+
+.buttonContainer{
+    margin-top: 20px;
+}
+.solveButton{
+  background-color: orange;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  margin: 0px 20px;
+}
+
+.checkButton{
+  background-color: tomato;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+}
+.resetButton{
+  background-color: aquamarine;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+
+.bBorder{
+  border-bottom: 2px solid black;
+}
+
+.rBorder{
+  border-right: 2px solid black;
+}
